@@ -1,0 +1,55 @@
+html, body{
+	background: #82B6D4;
+	background: url("../images/fondo4.jpg");
+	height: 90%;
+  	width: 100%;
+}
+
+
+#contenedor{
+	width: 100%;
+	height: 100%;
+}
+
+
+
+#panel{
+	color: black;
+}
+
+.form-control{
+	width: 500px;	
+}
+
+.form-group{
+	width: 500px;	
+}
+
+#button{
+	padding-top: 5%;
+	padding-left: 39%;
+
+}
+
+#datos{
+	width: 100%;
+	height: 100%;
+	padding-top: 20px;
+	
+}
+
+
+
+h1{
+	text-align: center;
+}
+
+#client{
+	align-content: center;
+	padding-left: 10px;
+	
+}
+
+#input{
+	background-color: #E7FEFE;
+}

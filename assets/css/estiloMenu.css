@@ -1,0 +1,70 @@
+body{
+	margin: 0;
+	font-family: Berlin Sans FB;
+}
+
+header {
+	width: 100%;
+	background: #FF6699;
+}
+
+#btn-menu{
+	display: none;
+}
+
+header label{
+	display: none;
+	width: 30px;
+	height: 30px;
+	padding: 10px;
+	border-right: 1px solid #92009F;
+}
+
+header label:hover{
+	cursor: pointer;
+	background: white;
+}
+
+.menu ul{
+	margin: 0;
+	list-style: none;
+	padding: 0;
+	display: flex;
+
+}
+
+.menu li{
+	border-right: 1px solid #92009F;
+}
+
+.menu li:hover{
+	background: #FF8EBD;
+}
+
+.menu li a{
+	display: block;
+	padding: 15px 20px;
+	color: #330000;
+	text-decoration: none;
+}
+
+@media (max-width: 768px) {
+	header label{
+		display: block;
+	}
+	.menu{
+		position: absolute;
+		background: #FF6699;
+		width: 70%;
+		margin-left: -70%;
+		transition: all 0.5s;
+	}
+	.menu ul{
+		flex-direction: column;
+	}
+	.menu li{
+		border-top: 1px solid #92009F;
+	}
+	#btn-menu:checked ~ .menu{
+		margin: 0;
+	}
